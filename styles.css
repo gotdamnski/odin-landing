@@ -13,12 +13,13 @@ body {
 
 .header-logo-container {
     font-size: 24px;
-    color: #f9faf8;
+    color: #c6cd00;
+    font-weight: 800;
 }
 
 .link {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #c6cd00;
     text-decoration: none; 
 }
 
@@ -27,4 +28,36 @@ ul {
     display: flex;
     padding: 0;
     gap: 12px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    background-color: #23371f;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    color: #c6cd00;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.intro-button {
+    border-radius: 8px;
+    width: 130px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid black;
+    color: #c6cd00;
+    font-size: 20px;
+    font-weight: 800;
 }
